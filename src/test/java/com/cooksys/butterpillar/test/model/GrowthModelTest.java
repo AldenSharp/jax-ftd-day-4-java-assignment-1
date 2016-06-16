@@ -103,8 +103,8 @@ public class GrowthModelTest {
 	@Test
 	public void testCatterflyToButterpillar() {
 		for (int i = 0; i < 5; i++) {
-			Catterfly converted = this.model.butterpillarToCatterfly(this.butterpillars.get(i));
-			Assert.assertEquals(this.catterflies.get(i), converted);
+			Butterpillar converted = this.model.catterflyToButterpillar(this.catterflies.get(i));
+			Assert.assertEquals(this.butterpillars.get(i), converted);
 		}
 	}
 
